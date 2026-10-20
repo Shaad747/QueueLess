@@ -1,0 +1,21 @@
+.operator-desk { margin-top: 28px; padding: 28px; border: 1px solid #d4e3d6; border-radius: 18px; background: #fafcf8; }
+.operator-desk-heading, .operator-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.operator-actions { justify-content: flex-start; margin-top: 20px; }
+.operator-desk h3 { font-size: 1.35rem; }
+.operator-desk h4 { margin: 8px 0; font-size: 1.1rem; }
+.operator-current { margin: 24px 0; padding: 26px; background: #edf4e6; border-radius: 16px; }
+.operator-number { display: block; font-size: clamp(2rem, 5vw, 3rem); color: #17624c; }
+.operator-secondary, .operator-danger { padding: 12px 18px; border: 1px solid #b5c9bb; border-radius: 9px; background: white; color: #17624c; font: inherit; cursor: pointer; }
+.operator-danger { color: #9b3027; border-color: #d9aaa5; }
+.operator-desk button:disabled { opacity: .5; cursor: not-allowed; }
+.operator-desk button:focus-visible { outline: 3px solid #498d75; outline-offset: 3px; }
+.operator-success { color: #17624c; padding: 12px 16px; background: #edf4e6; border-radius: 10px; }
+.operator-retry { margin-top: 14px; padding: 16px; background: #fff4dc; border-radius: 10px; }
+.operator-waiting ol { list-style: none; padding: 0; margin: 12px 0; }
+.operator-waiting li { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid #dde5dd; }
+.operator-waiting li span { color: #64736d; }
+@media (max-width: 600px) {
+  .operator-desk, .operator-current { padding: 18px; }
+  .operator-actions { align-items: stretch; }
+  .operator-actions button { flex-grow: 1; }
+}

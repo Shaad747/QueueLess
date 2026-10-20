@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.queueless-backups/
+*-backup-*/
+
+# Local backup copies
+*.user-backup
+*.user-backup.*

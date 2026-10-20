@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "QueueLess Campus Services",
+  "short_name": "QueueLess",
+  "description": "Join campus service queues and follow your turn.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafbf8",
+  "theme_color": "#17624c",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

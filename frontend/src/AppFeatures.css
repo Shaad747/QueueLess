@@ -1,0 +1,6 @@
+.app-install { padding:32px; border:1px solid #dce6d7; border-radius:20px; background:#edf4e6; display:grid; grid-template-columns:1.2fr 1fr; gap:28px; margin:48px 0; }
+.app-install p { color:#536c60; line-height:1.7; margin-top:12px; }
+.app-install summary { color:#17624c; cursor:pointer; font-weight:700; padding:12px 0; }
+.offline-banner { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); z-index:20; width:min(90%,700px); background:#173e33; color:white; padding:16px 20px; box-shadow:0 4px 20px #173e3333; border-radius:12px; }
+@media(max-width:700px) { .app-install {grid-template-columns:1fr; padding:24px;} }
+@media(prefers-reduced-motion:reduce) { html {scroll-behavior:auto!important;} *,*::before,*::after {animation-duration:.01ms!important;transition-duration:.01ms!important;} }
