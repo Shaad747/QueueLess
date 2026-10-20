@@ -137,3 +137,6 @@ Hosting has not been purchased or configured, and nothing was published. Deploym
 Prepared-source checks and local database checks have different evidence. See `docs/CHECKLIST.md` and `docs/PROJECT_REPORT.md` for the honest status record. Keep actual test output and device results when you run them. Complete screenshots, actual performance measurements and a final demo before submission.
 
 References: [PWA installation requirements](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable), [Express production security](https://expressjs.com/en/advanced/best-practice-security/), [Express proxy configuration](https://expressjs.com/en/guide/behind-proxies/).
+## Project team
+
+- [Ariyaan-Sadiq](https://github.com/Ariyaan-Sadiq)
