@@ -415,9 +415,9 @@ function App() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Shaad747Queueless home">
+        <a className="brand" href="#top" aria-label="QueueLess home">
           <span className="brand-mark">Q</span>
-          <span>Shaad747Queueless</span>
+          <span>QueueLess</span>
         </a>
 
         <nav className="main-nav" aria-label="Main navigation">
